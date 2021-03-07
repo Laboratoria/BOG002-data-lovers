@@ -106,7 +106,7 @@ usuario necesita.
 * [ ] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 | [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
 * [ ] Diferenciar entre expression y statements.
-* [ ] Diferenciar entre tipos de datos atómicos y estructurados.
+* [ ] Diferenciar entre tipos de datos primitivos y no primitivos.
 
 ### Testing
 
@@ -424,7 +424,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 * [json.org](https://json.org/json-es.html)
 * [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
 * [expresión vs sentencia](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
-* [datos atómicos vs datos estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
+* [datos primitivos y datos no primitivos](https://www.todojs.com/tipos-datos-javascript-es6/)
 * [Modulos: Export](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/export)
 * [Modulos: Import](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/import)
 
