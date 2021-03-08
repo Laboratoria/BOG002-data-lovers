@@ -407,11 +407,11 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 #### Desarrollo Front-end
 
-* Unidad de testing en curso de JavaScript en LMS.
-* Unidad de arreglos en curso de JavaScript en LMS.
-* Unidad de objetos en curso de JavaScript en LMS.
-* Unidad de funciones en curso de JavaScript en LMS.
-* Unidad de DOM en curso de Browser JavaScript en LMS.
+* [Unidad de testing en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/bog-2021-02-bc-core-bog002/topics/javascript/11-testing/00-opening)
+* [Unidad de arreglos en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/bog-2021-02-bc-core-bog002/topics/javascript/04-arrays/01-arrays)
+* [Unidad de objetos en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/bog-2021-02-bc-core-bog002/topics/javascript/05-objects/01-objects)
+* [Unidad de funciones en curso de JavaScript en LMS](https://lms.laboratoria.la/cohorts/bog-2021-02-bc-core-bog002/topics/javascript/03-functions/00-opening)
+* [Unidad de DOM en curso de Browser JavaScript en LMS](https://lms.laboratoria.la/cohorts/bog-2021-02-bc-core-bog002/topics/browser/02-dom/00-opening)
 * [Array en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
 * [Array.sort en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/sort)
 * [Array.map en MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/map)
