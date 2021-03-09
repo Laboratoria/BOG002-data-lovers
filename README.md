@@ -382,8 +382,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 1. Una de las integrantes del equipo debe realizar un :fork_and_knife:
    [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
-   tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
-   en ese repo. La otra integrante del equipo deber hacer un fork **del
+   tus _coaches_ te compartirán un _link_ a un repo. La otra integrante del equipo deber hacer un fork **del
    repositorio de su compañera** y
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
    hacia el mismo.
