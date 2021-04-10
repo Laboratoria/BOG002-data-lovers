@@ -11,15 +11,35 @@ header{
   width: 100%;
   height: 20%;
 }
-.primeraPagina header img{
-    width: 100%;
-    height: 20%;
+
+.Gif {
+top: 500%;
+float: left;
+width: 50%;
+
 }
 
+
+.primeraPagina header img{
+    width: 50%;
+    height: 20%;
+    t
+    
+}
+
+.primeraPagina main .Titulo{
+    width: ;
+}
 .primeraPagina main .Titulo .tituloTexto{
     width: 100%;
     height: 50%;
     text-align: center;
+    font-size: 500%;
+}
+.primeraPagina main .Titulo img{
+    width: 20%;
+    height: 20%;
+    
 }
 
 section .textoIntro{
