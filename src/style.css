@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Economica', sans-serif;
+}
+header{
+  width: 100%;
+  height: 20%;
+}
+.primeraPagina header img{
+    width: 100%;
+    height: 20%;
+}
+
+.primeraPagina main .Titulo .tituloTexto{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+section .textoIntro{
+ display: flex;
+ 
+}
+
+section .categoria{
+  display: flex;
+  justify-content: space-evenly;
+}
