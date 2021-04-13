@@ -7,28 +7,21 @@
 body{
     font-family: 'Economica', sans-serif;
 }
+
 header{
   width: 100%;
   height: 20%;
 }
 
-.Gif {
-top: 500%;
-float: left;
-width: 50%;
-
-}
-
-
-.primeraPagina header img{
-    width: 50%;
-    height: 20%;
-    t
-    
+header .Gif{
+    width: 65%;
+    height: 250px;
+    top: 500%;
+    margin: auto;
+    display: block;
 }
 
 .primeraPagina main .Titulo{
-    width: ;
 }
 .primeraPagina main .Titulo .tituloTexto{
     width: 100%;
@@ -37,9 +30,10 @@ width: 50%;
     font-size: 500%;
 }
 .primeraPagina main .Titulo img{
-    width: 20%;
-    height: 20%;
-    
+    width: 27%;
+    height: 70px;
+    margin: auto;
+    display: block;
 }
 
 section .textoIntro{
