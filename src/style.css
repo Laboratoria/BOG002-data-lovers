@@ -36,12 +36,19 @@ header .Gif{
     display: block;
 }
 
-section .textoIntro{
- display: flex;
- 
+.contenedor {
+  display: flex;
+}
+
+section .textoIntro {
+   width: 10%;
+   flex-direction: row;
+}
+section .textoIntro .texto {
+  width: 100%;
 }
 
 section .categoria{
-  display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  
 }
