@@ -77,6 +77,11 @@ img{
   color: rgba(176, 211, 239, 1);
 }
 .iconos{
+  
   margin-right: 15%;
-  flex-direction: row;
+  /*flex-direction: row;*/
+}
+.grupoIconos{
+  width: 100%;
+  margin: 30%;
 }
