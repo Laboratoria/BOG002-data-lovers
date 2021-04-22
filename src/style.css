@@ -8,6 +8,11 @@ body{
     font-family: 'Economica', sans-serif;
 }
 
+.primeraPagina{
+  width: 100%;
+  height: 100%;
+}
+
 header{
   width: 100%;
   height: 20%;
@@ -51,4 +56,32 @@ section .textoIntro .texto {
 section .categoria{
   flex-direction: row;
   
+}
+
+footer{
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: rgba(1, 39, 73, 1);
+}
+img{
+  width: 20%;
+  height: 100px;
+}
+.derechos{
+  text-align: center;
+  font-size: 170%;
+  color: rgba(176, 211, 239, 1);
+}
+.iconos{
+  
+  margin-right: 15%;
+  /*flex-direction: row;*/
+}
+.grupoIconos{
+  width: 100%;
+  margin: 30%;
 }
