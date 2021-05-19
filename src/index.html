@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="icon" href="\Imágenes\aros.ico">
     <title>JUEGOS OLIMPICOS</title>
+
+    
     
   </head>
      <!-- encabezado -->
@@ -20,12 +22,21 @@
         <main>
           <section class="Titulo">
             <div class="tituloTexto"> JUEGOS OLÍMPICOS</div>  
-            <div class="select_ordenar">
+            <div class="button_ordenar" >
               <select id="filtroAz" class="filtroAz" name="OrdenAZ">
                 <option value= "" disabled selected >Ordenar</option>
-                <option value="a-z">A-Z</option>
-                <option value="z-a">Z-A</option>
+                <option value= "asc" >AZ</option>
+                <option value= "desc" >ZA</option>
               </select>
+
+              <!-- <button  >
+                
+                <h3>Ordenar A-Z</h3>
+              </button> 
+              <button id="za"  >
+                
+                <h3>Ordenar Z-A</h3>
+              </button>  -->
             </div>
           </section>
           
@@ -36,7 +47,7 @@
 
     <div class= "athleteOnScreen" id ="athleteOnScreen1"></div>
     <script src="main.js" type="module"></script>
-
+    
     
      
      <!-- <embed src="\Imágenes\Rio 2016 Official Song.mp3" autostarty="true" loop="true" volume="20" width="0" height="0" > -->

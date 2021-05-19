@@ -1,4 +1,5 @@
 import data from './data/athletes/athletes.js';
+import {  orderAlfab } from './data.js';
 
 
 
@@ -16,15 +17,15 @@ for(let i = 0;i<athletes.length;i ++){
     
 
     //CARD
-    let divName = document.createElement ('div');
+    let divName = document.createElement ('h2');
     divName.innerHTML = nameAthlete;
-    let divSport = document.createElement ('div');
+    let divSport = document.createElement ('p');
     divSport.innerHTML = sportAthlete;
-    let divTeam = document.createElement ('div');
+    let divTeam = document.createElement ('p');
     divTeam.innerHTML = teamAthlete;
-    let divMedal = document.createElement ('div');
+    let divMedal = document.createElement ('p');
     divMedal.innerHTML = medalAthlete;
-    let newDiv = document.createElement ('div');
+    let newDiv = document.createElement ('p');
 
 // classlist CARD
     divName.classList.add ('cardFrName')
@@ -48,12 +49,18 @@ for(let i = 0;i<athletes.length;i ++){
 }
 window.onload = showingAthletes(data.athletes);
 
-// const filtroAz = document.getElementById("filterAz");
-// if (filterAz) {
-//   filterAz.addEventListener("change", () => {
-//     athleticsWinner(ordenar(data, filterAz.value));
-//   });
-// }
+//ordernar A-Z Z-A
+
+document.getElementById('filtroAz').addEventListener('change',filterAZ);
+
+function filterAZ(e) {
+    const orderAZ = e.target.value; 
+    document.getElementById('athleteOnScreen1').innerHTML = '';
+    const newOrder = orderAlfab(data.athletes, orderAZ);
+    showingAthletes (newOrder);
+}
+
+
 
 
 
