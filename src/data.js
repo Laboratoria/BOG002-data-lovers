@@ -21,10 +21,7 @@ export const orderAlfab = (data, sortBy) => {
   };
 
   
-  export const search = (data, condition) => {
-    const athletesSearched =data.filter(item => item.name.includes(condition));
-    return athletesSearched
-  };
+  
   
  
 
