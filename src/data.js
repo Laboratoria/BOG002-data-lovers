@@ -1,9 +1,6 @@
 
 
-export const filtered = (data, condition) => {
-  const all=data.filter(item => item.type.includes(condition));
-  return all
-};
+
 export const orderAlfab = (data, sortBy) => {
     const order =data.sort(function(a,b) {
       if (a.name.toLowerCase() > b.name.toLowerCase()){

@@ -1,23 +1,20 @@
-import { example, anotherExample } from '../src/data.js';
+import {  orderAlfab } from '../src/data.js';
+const dataMuestra =[{
+  "name": "Giovanni Abagnale", "sport": "Rowing","team": "Italy", "medal": "Bronze"
+}]
+const ordenarAlfab = [
+  {"name": "Giovanni Abagnale","sport": "Rowing","team": "Italy","medal": "Bronze"},
+  {"name": "Luc Abalo","sport": "Handball","team": "France","medal": "Silver"},
+  {"name": "Patimat Abakarova","sport": "Taekwondo","team": "Azerbaijan","medal": "Bronze"
+  }]
 
 
-describe('example', () => {
+describe('Organizar alfabeticamente', () => {
   it('is a function', () => {
-    expect(typeof example).toBe('function');
-  });
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
-
-
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});
+   expect(typeof orderAlfab).toBe('function');
+   });
+ 
+   it('debería retornar "atletas en orden a-z" para la opción ordenar AZ - ZA con una condicion A-Z', () => { 
+       expect(orderAlfab(dataMuestra)).toEqual(ordenarAlfab);
+   });
+ });
