@@ -1,5 +1,5 @@
 import data from './data/athletes/athletes.js';
-import {  orderAlfab } from './data.js';
+import {  orderAlfab, filtroPorMedalla } from './data.js';
 
 
 
@@ -61,7 +61,21 @@ function filterAZ(e) {
 }
 
 
+//filtro por medalla
+let dataMedal = data.athletes;
+const medallaFiltro= document.getElementById('filterMedal');
+medallaFiltro.addEventListener('change', filtro)
+  function filtro () { 
+//  const medallaFiltro= document.querySelector('.filterMedal');
+   const valorSelect= (medallaFiltro.value);
+//    console.log(valorSelect)
+   document.getElementById('athleteOnScreen1').innerHTML = ''; 
 
+  const filterMedal = filtroPorMedalla(dataMedal, valorSelect, 'athleteOnScreen1');
+  
+  showingAthletes(filterMedal);
+//   console.log("filtro por", filterMedal)
+}
 
 
 

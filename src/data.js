@@ -19,6 +19,20 @@ export const orderAlfab = (data, sortBy) => {
 
   
   
+  export function filtroPorMedalla(dataMedal, value){
+
+    const filtroMedal = dataMedal.filter(function (athletes1){
+   
+      return athletes1["medal"]===value
+    } )
+    
+    return filtroMedal;
+      
+  }
+  
+      
+  
+  
   
  
 
